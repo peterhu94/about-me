@@ -1,0 +1,33 @@
+/* CSS reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+}
+
+.profile-card {
+  width: 500px;
+  max-width: calc(100vw - 10px);
+  margin-top: 130px;
+  margin-left: auto; 
+}
+
+.name-headline {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.about {
+  text-align: justify;
+  margin-right: 140px;
+  margin-left: -160px;
+  margin-bottom: 20px;
+}
